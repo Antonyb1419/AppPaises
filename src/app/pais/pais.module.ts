@@ -8,7 +8,18 @@ import { VerPaisComponent } from './pages/ver-pais/ver-pais.component';
 
 
 @NgModule({
-  declarations: [PorCapitalComponent, PorRegionComponent, PorPaisComponent, VerPaisComponent],
+  declarations: [
+    PorCapitalComponent, 
+    PorRegionComponent, 
+    PorPaisComponent, 
+    VerPaisComponent
+  ],
+  exports: [
+    PorCapitalComponent, 
+    PorRegionComponent, 
+    PorPaisComponent, 
+    VerPaisComponent
+  ],
   imports: [
     CommonModule
   ]
